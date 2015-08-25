@@ -99,6 +99,15 @@ body {
   margin: 20px 0;
 }
 
+.item>a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.item:hover {
+  background-color: #fbf9ea;
+}
+
 .items {
   overflow: auto;
   
