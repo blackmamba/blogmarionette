@@ -1,0 +1,30 @@
+{
+  "name": "blogmarionette",
+  "version": "0.0.0",
+  "homepage": "https://github.com/blackmamba/blogmarionette",
+  "authors": [
+    "Hitesh Ubharani <hubharani@gmail.com>"
+  ],
+  "description": "blog using marionettejs",
+  "main": "index.html",
+  "keywords": [
+    "blog",
+    "application",
+    "javascript",
+    "marionettejs",
+    "backbonejs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "marionette": "~2.4.2",
+    "bootstrap": "~3.3.5"
+  }
+}
