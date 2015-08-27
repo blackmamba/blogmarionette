@@ -18,6 +18,8 @@ prerequesite
 - npm install grunt-cli -g
 - npm install bower -g 
 - npm install http-server -g
+ 
+
 Installation Process
 -----------------------
 git clone https://github.com/blackmamba/blogmarionette.git
