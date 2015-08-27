@@ -4,6 +4,8 @@ define(function(require) {
     var Marionette = require('marionette'),
         PostsCollectionView = require('views/postscollectionview'),
         DetailView = require('views/detailview'),
+        CreateView = require('views/createview'),
+
 
         Posts = require('collections/posts'),
         Post = require('models/post'),
@@ -30,7 +32,7 @@ define(function(require) {
                 if (!id) return;
                 var model = collection.get(+id);
                 if (!model) {
-                    //directly landing on this page collection not populated yet
+                    //fetch model
                     model = new Post({
                         id: id
                     });
@@ -41,7 +43,9 @@ define(function(require) {
                             }));
                         },
                         error: function(model, response, options) {
-                            App.content.show(new ErrorView({msg: 'unable to load the data for this blog..please try again later'}));
+                            App.content.show(new ErrorView({
+                                msg: 'unable to load the data for this blog..please try again later'
+                            }));
                         }
                     })
                 } else {
@@ -53,8 +57,7 @@ define(function(require) {
 
             },
             create: function() {
-
-
+                App.content.show(new CreateView());
             }
 
             /**

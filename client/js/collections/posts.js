@@ -4,7 +4,7 @@ define(function(require) {
     Backbone = require('backbone');
     return Backbone.Collection.extend({
         model: post,
-        url: 'http://jsonplaceholder.typicode.com/posts'
+        url: 'http://localhost:3000/posts'
 
     });
 

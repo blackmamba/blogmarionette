@@ -2,7 +2,7 @@
      'use strict'
      app.c.Collection = Backbone.Collection.extend({
          model: ,
-         url: 'http://jsonplaceholder.typicode.com/posts',
+         url: 'http://jsonplaceholder',
          initialize: function(models, options) {
              if (options) {
                  this.url = options.url || '';
