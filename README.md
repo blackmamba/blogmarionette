@@ -14,7 +14,7 @@ hubharani@gmail.com
 
 prerequesite
 --------------
--  nodejs (follow the installation process based on your OS)
+- nodejs (follow the installation process based on your OS)
 - npm install grunt-cli -g
 - npm install bower -g 
 - npm install http-server -g
@@ -22,12 +22,13 @@ prerequesite
 
 Installation Process
 -----------------------
-git clone https://github.com/blackmamba/blogmarionette.git
-cd blogmarionette
-npm install 
-bower install
-http-server
-json-server --watch tests/db.json
+- git clone https://github.com/blackmamba/blogmarionette.git
+- cd blogmarionette
+- npm install 
+- bower install
+- http-server
+- json-server --watch tests/db.json
+- open localhost:8080 (linux/mac only)
 
 technologies used
 ---------------------
