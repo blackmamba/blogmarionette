@@ -4,6 +4,7 @@
 
 define(function(App) {
 	'use strict';
-	App = require('app');
+	var App = require('app');
+	// window.App = App;
 	return App.start();
 });

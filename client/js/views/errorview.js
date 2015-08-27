@@ -1,3 +1,8 @@
+/**
+ * To be implemented
+ * @param  {[type]} require) {	'use       strict'	var Marionette [description]
+ * @return {[type]}          [description]
+ */
 define(function(require) {
 	'use strict'
 
