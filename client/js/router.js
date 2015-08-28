@@ -13,7 +13,7 @@ define(function(require) {
             '':'home',
             'Blogs/:id':'detail',
             'create':'create',
-            
+            'Blogs/edit/:id':'edit',
             // ':module(/:view)(/:extra)' : 'showModule'
             // '': 'showModule',
             // '/:view/:id' : 'showModule'
